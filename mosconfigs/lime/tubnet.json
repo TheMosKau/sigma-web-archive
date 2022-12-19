@@ -1,0 +1,741 @@
+{
+  "modules": [
+    {
+      "name": "Anti Bot",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Mode",
+          "value": "Tab Ticks"
+        },
+        {
+          "name": "Ticks",
+          "value": 150.0
+        }
+      ]
+    },
+    {
+      "name": "Auto Potion",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Pitch",
+          "value": "Down"
+        },
+        {
+          "name": "Health",
+          "value": 10.0
+        },
+        {
+          "name": "Delay",
+          "value": 150.0
+        },
+        {
+          "name": "Heal",
+          "value": true
+        },
+        {
+          "name": "Speed",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "Criticals",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Mode",
+          "value": "Packet"
+        },
+        {
+          "name": "Delay",
+          "value": 900.0
+        }
+      ]
+    },
+    {
+      "name": "Kill Aura",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Attack",
+          "properties": [
+            {
+              "name": "Mode",
+              "value": "Single"
+            },
+            {
+              "name": "State",
+              "value": "PRE"
+            },
+            {
+              "name": "Auto Block",
+              "value": "Fake"
+            },
+            {
+              "name": "Max Entities",
+              "value": 10.0
+            },
+            {
+              "name": "CPS",
+              "value": 2.0
+            },
+            {
+              "name": "Range",
+              "value": 5.950000088661909
+            },
+            {
+              "name": "Randomize CPS",
+              "value": false
+            },
+            {
+              "name": "Keep Sprint",
+              "value": true
+            }
+          ]
+        },
+        {
+          "name": "Entities",
+          "properties": [
+            {
+              "name": "Players",
+              "value": true
+            },
+            {
+              "name": "Passives",
+              "value": false
+            },
+            {
+              "name": "Mobs",
+              "value": false
+            },
+            {
+              "name": "Villagers",
+              "value": false
+            },
+            {
+              "name": "Through Walls",
+              "value": true
+            },
+            {
+              "name": "Dead",
+              "value": false
+            },
+            {
+              "name": "Teams",
+              "value": false
+            }
+          ]
+        },
+        {
+          "name": "Rotations",
+          "properties": [
+            {
+              "name": "Rotations",
+              "value": "None"
+            },
+            {
+              "name": "Turn Speed",
+              "value": 140.0
+            },
+            {
+              "name": "Randomize",
+              "value": false
+            },
+            {
+              "name": "GCD Fix",
+              "value": false
+            },
+            {
+              "name": "Raytrace",
+              "value": false
+            }
+          ]
+        },
+        {
+          "name": "Visual",
+          "properties": [
+            {
+              "name": "Target HUD",
+              "value": "Basic"
+            },
+            {
+              "name": "Sigma ESP",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Teleport Aura",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Attack",
+          "properties": [
+            {
+              "name": "Range",
+              "value": 100.0
+            },
+            {
+              "name": "Targets",
+              "value": 5.0
+            },
+            {
+              "name": "CPS",
+              "value": 7.0
+            },
+            {
+              "name": "No Swing",
+              "value": false
+            }
+          ]
+        },
+        {
+          "name": "Movement",
+          "properties": [
+            {
+              "name": "Ground State",
+              "value": true
+            }
+          ]
+        },
+        {
+          "name": "Entities",
+          "properties": [
+            {
+              "name": "Players",
+              "value": true
+            },
+            {
+              "name": "Passives",
+              "value": false
+            },
+            {
+              "name": "Mobs",
+              "value": true
+            },
+            {
+              "name": "Villagers",
+              "value": false
+            },
+            {
+              "name": "Through Walls",
+              "value": true
+            },
+            {
+              "name": "Dead",
+              "value": false
+            },
+            {
+              "name": "Teams",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Velocity",
+      "enabled": true,
+      "properties": [
+        {
+          "name": "Mode",
+          "value": "Verus"
+        }
+      ]
+    },
+    {
+      "name": "Anti Ban",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Mode",
+          "value": "HyCraft"
+        }
+      ]
+    },
+    {
+      "name": "Disabler",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Mode",
+          "value": "Verus"
+        },
+        {
+          "name": "Verus",
+          "properties": [
+            {
+              "name": "Transaction",
+              "value": true
+            },
+            {
+              "name": "Teleport",
+              "value": false
+            },
+            {
+              "name": "Cancel C03",
+              "value": false
+            },
+            {
+              "name": "Fly Checks",
+              "value": false
+            },
+            {
+              "name": "Combat",
+              "value": true
+            },
+            {
+              "name": "Sprint",
+              "value": true
+            },
+            {
+              "name": "Many Transactions",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ping Spoof",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Delay",
+          "value": 4950.0
+        }
+      ]
+    },
+    {
+      "name": "Flight",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Mode",
+          "value": "Vanilla"
+        },
+        {
+          "name": "Vanilla",
+          "properties": [
+            {
+              "name": "Speed",
+              "value": 3.500000052154064
+            },
+            {
+              "name": "Kick Bypass",
+              "value": false
+            }
+          ]
+        },
+        {
+          "name": "Funcraft",
+          "properties": [
+            {
+              "name": "Timer Speed",
+              "value": 1.0
+            },
+            {
+              "name": "Speed",
+              "value": 1.9500000290572643
+            }
+          ]
+        },
+        {
+          "name": "Verus",
+          "properties": [
+            {
+              "name": "Mode",
+              "value": "Damage"
+            },
+            {
+              "name": "Speed",
+              "value": 5.0
+            },
+            {
+              "name": "Heavy",
+              "value": false
+            }
+          ]
+        },
+        {
+          "name": "Packet",
+          "properties": [
+            {
+              "name": "Mode",
+              "value": "Factor2"
+            },
+            {
+              "name": "Phase",
+              "value": "Semi"
+            },
+            {
+              "name": "Type",
+              "value": "Bounds"
+            },
+            {
+              "name": "Speed",
+              "value": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "No Slow",
+      "enabled": true,
+      "properties": [
+        {
+          "name": "Mode",
+          "value": "Vanilla"
+        }
+      ]
+    },
+    {
+      "name": "Speed",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Mode",
+          "value": "Vanilla"
+        },
+        {
+          "name": "Vanilla",
+          "properties": [
+            {
+              "name": "OnGround Speed",
+              "value": 2.1500000320374966
+            },
+            {
+              "name": "Speed",
+              "value": 0.5500000081956387
+            },
+            {
+              "name": "B-Hop",
+              "value": true
+            }
+          ]
+        },
+        {
+          "name": "NCP",
+          "properties": [
+            {
+              "name": "NCP Mode",
+              "value": "Updated NCP"
+            },
+            {
+              "name": "Fake Y",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sprint",
+      "enabled": true
+    },
+    {
+      "name": "Target Strafe",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Distance",
+          "value": 2.5
+        },
+        {
+          "name": "Hold Space",
+          "value": true
+        },
+        {
+          "name": "Behind",
+          "value": false
+        }
+      ]
+    },
+    {
+      "name": "Anti Void",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Mode",
+          "value": "Blink"
+        }
+      ]
+    },
+    {
+      "name": "Auto Tool",
+      "enabled": true
+    },
+    {
+      "name": "Chest Stealer",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Delay",
+          "value": 0.0
+        },
+        {
+          "name": "Delay before closing",
+          "value": 0.0
+        },
+        {
+          "name": "Check Chest Names",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "Fast Place",
+      "enabled": false
+    },
+    {
+      "name": "Inventory Manager",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Mode",
+          "value": "Normal"
+        },
+        {
+          "name": "Delay",
+          "value": 0.0
+        },
+        {
+          "name": "Auto Armor",
+          "value": true
+        },
+        {
+          "name": "Auto Swap",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "Inventory Move",
+      "enabled": true
+    },
+    {
+      "name": "No Fall",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Mode",
+          "value": "Verus"
+        }
+      ]
+    },
+    {
+      "name": "Animations",
+      "enabled": true,
+      "properties": [
+        {
+          "name": "Mode",
+          "value": "Leaked"
+        },
+        {
+          "name": "X",
+          "value": -0.05000000074505806
+        },
+        {
+          "name": "Y",
+          "value": -0.15000000223517418
+        },
+        {
+          "name": "Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Click GUI",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Mode",
+          "value": "Remix"
+        }
+      ]
+    },
+    {
+      "name": "Fullbright",
+      "enabled": true
+    },
+    {
+      "name": "HUD",
+      "enabled": true,
+      "properties": [
+        {
+          "name": "Separator",
+          "value": "None"
+        },
+        {
+          "name": "Sidebar",
+          "value": "Both"
+        },
+        {
+          "name": "Color",
+          "value": "Blend"
+        }
+      ]
+    },
+    {
+      "name": "Model Render",
+      "enabled": false
+    },
+    {
+      "name": "Tracers",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Line Width",
+          "value": 4.6000000685453415
+        }
+      ]
+    },
+    {
+      "name": "Nametags",
+      "enabled": true
+    },
+    {
+      "name": "Cape",
+      "enabled": false
+    },
+    {
+      "name": "Breaker",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Range",
+          "value": 4.0
+        },
+        {
+          "name": "No Swing",
+          "value": false
+        }
+      ]
+    },
+    {
+      "name": "No C03",
+      "enabled": false
+    },
+    {
+      "name": "No Rotate",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Client Side",
+          "value": false
+        }
+      ]
+    },
+    {
+      "name": "Scaffold",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Place",
+          "properties": [
+            {
+              "name": "Item Spoof",
+              "value": "Pick"
+            },
+            {
+              "name": "Expand",
+              "value": 0.0
+            },
+            {
+              "name": "Delay",
+              "value": 0.0
+            },
+            {
+              "name": "CPS",
+              "value": 0.0
+            },
+            {
+              "name": "Funny Bypass",
+              "value": true
+            },
+            {
+              "name": "Random Vec",
+              "value": false
+            },
+            {
+              "name": "No Swing",
+              "value": false
+            },
+            {
+              "name": "Picker",
+              "value": true
+            }
+          ]
+        },
+        {
+          "name": "Movement",
+          "properties": [
+            {
+              "name": "Safe walk",
+              "value": false
+            },
+            {
+              "name": "No Sprint",
+              "value": false
+            },
+            {
+              "name": "Auto Jump",
+              "value": true
+            },
+            {
+              "name": "Same Y",
+              "value": true
+            }
+          ]
+        },
+        {
+          "name": "Rotation",
+          "properties": [
+            {
+              "name": "Rotations",
+              "value": "None"
+            },
+            {
+              "name": "Keep Rotations",
+              "value": false
+            },
+            {
+              "name": "Ray trace",
+              "value": false
+            },
+            {
+              "name": "GCD Fix",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Time Changer",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Time",
+          "value": 21000.0
+        }
+      ]
+    },
+    {
+      "name": "Timer",
+      "enabled": false,
+      "properties": [
+        {
+          "name": "Speed",
+          "value": 1.3000000193715096
+        }
+      ]
+    }
+  ]
+}
